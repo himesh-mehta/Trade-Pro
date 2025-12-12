@@ -13,10 +13,8 @@ import {
   Book,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
-
-import { feature } from "process";
 import { useRef, useState } from "react";
-import { delay, motion, scale, useInView } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 
 const Animatedsection = ({ children }: any) => {
   const ref = useRef(null);
@@ -290,8 +288,8 @@ export default function Home() {
         <Animatedsection>
           <div className="py-20">
             <div className="grid md:grid-cols-2 gap-16 items-center">
-              <motion.div className="bg-grey-800 p-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-tranform duration-300 relative overflow-hidden group">
-                <img
+              <motion.div className="bg-gray-800 p-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-300 relative overflow-hidden group">
+                <motion.img
                   initial={{ opacity: 0, x: -50 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}

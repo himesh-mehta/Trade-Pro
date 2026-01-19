@@ -381,6 +381,7 @@ export default function Home() {
               Success
             </p>
             <motion.button
+              onClick={() => router.push("/auth/signup")}
               className="bg-white text-blue-600 px-8 py-4 rounded-md text-xl font-bold hover:bg-gray-100 transition-colors relative z-10"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

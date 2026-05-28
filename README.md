@@ -1,4 +1,4 @@
-# 🚀 TradePro — Next-Gen Real-Time Financial Trading & Technical Analysis Platform
+    # 🚀 TradePro — Next-Gen Real-Time Financial Trading & Technical Analysis Platform
 
 [![Next.js 16](https://img.shields.io/badge/Next.js-16.0.10-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![React 19](https://img.shields.io/badge/React-19.2.1-blue?style=for-the-badge&logo=react)](https://react.dev)
@@ -23,11 +23,15 @@ Welcome to **TradePro**, an ultra-premium, dark-themed digital trading and inves
 
 ### 🖥️ 1. Main Landing Page & Feature Hub
 A beautiful glassmorphic home page featuring modern dark-mode aesthetics, rich micro-animations, and smooth scrolling.
-![TradePro Landing Page](./public/dashboard_mockup.png)
+![TradePro Landing Page](./public/landing_page.png)
 
-### 📈 2. Advanced Candlestick Technical Analysis Dashboard
+### 📊 2. Dynamic Live Ticker & Market Indices Dashboard
+The central terminal showcasing live fluctuating indices (Nifty 50, Bank Nifty, Sensex), most-bought stock cards (Reliance, Tata Motors, TCS) with animated price tickers, and a market capitalization listing.
+![TradePro Dashboard](./public/dashboard_view.png)
+
+### 📈 3. Advanced Candlestick Technical Analysis Charting Room
 A specialized charting room showcasing interactive simulated live tickers, multi-timeframe controls (5M, 10M, 1H), and high-fidelity candlestick charting.
-![Technical Charts](./public/charting_mockup.png)
+![Technical Charts](./public/technical_charts.png)
 
 ---
 
@@ -74,8 +78,9 @@ Trade-Pro/
 │   ├── firebase.js           # Firebase Client Setup
 │   └── utils.ts              # Tailwind Merge Class Utility
 ├── public/                   # Public Static Assets
-│   ├── dashboard_mockup.png  # Generated Landing Page Preview
-│   └── charting_mockup.png   # Generated Candlestick Dashboard Preview
+│   ├── landing_page.png      # Home & Landing Page Preview
+│   ├── dashboard_view.png    # Stocks, Mutual Funds & Indices Dashboard
+│   └── technical_charts.png  # Live Candlestick Stock Charting Preview
 ├── package.json              # Project Configuration & Dependencies
 └── tsconfig.json             # TypeScript Configuration
 ```
